@@ -9,38 +9,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <nav>
-    <img src="assets/images/logo.svg" alt="Snap logo"/>
-    <ul>
-      <li>Features</li>
-      <li>Company</li>
-      <li>Careers</li>
-      <li>About</li>
-    </ul>
-    <ul>
-      <li>Login</li>
-      <li>Register</li>
-   </ul>
-   <img src="assets/images/icon-menu.svg" alt="Burger menu"/>
-  </nav>
-  <main>
-    <div class="heroImage">
-
+  <nav class="nav">
+    <div class="logo">
+      <img src="assets/images/logo.svg" alt="Snap logo"/>
     </div>
+    <div>
+      <ul class="ulLeft ">
+         <li>Features<img src="assets/images/icon-arrow-down.svg" alt="expand"></li>
+        <li>Company<img src="assets/images/icon-arrow-down.svg" alt="expand"></li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="ulRight">
+      <ul>
+        <li>Login</li>
+        <li><button>Register</button></li>
+    </ul>
+    </div>
+   <span class="burgerMenu">
+    <img src="assets/images/icon-menu.svg" alt="Burger menu"/>
+  </span>
+  </nav>
+  <main class="mainContent">
+    <picture class="heroImage">
+    
+    </picture>
     <h1>
-      Make remote work
+      Make<br> remote work
     </h1>
     <p>
       Get your team in sync, no matter your location. Streamline processes, 
     create team rituals, and watch productivity soar.
     </p>
-
     <button>
       Learn more
     </button>
@@ -63,7 +66,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Kjetil H Hauger</a>.
   </div>
 </footer>
 </body>
