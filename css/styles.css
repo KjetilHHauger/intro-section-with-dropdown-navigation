@@ -158,11 +158,12 @@ ul {
     .mainContent {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-template: 
         "title hero"
         "para hero"
-        "button hero";
+        "button hero"
+        "client hero";
         margin-left: 165px;
         margin-right: 130px;
     }
@@ -187,22 +188,20 @@ ul {
     .mainContent p {
         grid-area: para;
         text-align: left;
-        margin-top: -70px;
+        margin-top: 48px;
         margin-left: 0;
         padding-right: 100px;
     }
 
     .mainContent button {
         grid-area: button;
-        margin-top: -81px;
+        margin-top: 51px;
     }
 
     .clients {
-        justify-content: left;
         column-gap: 40px;
-        margin-left: 165px;
-        margin-top: -20px;
-        margin-bottom: 122px;
+        margin-top: 130px;
+        grid-area: client;
     }
 
     .heroImage {
